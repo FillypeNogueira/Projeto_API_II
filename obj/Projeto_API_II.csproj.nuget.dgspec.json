@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/fillype/Área de Trabalho/Projeto_API_II/Projeto_API_II.csproj": {}
+  },
+  "projects": {
+    "/home/fillype/Área de Trabalho/Projeto_API_II/Projeto_API_II.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/fillype/Área de Trabalho/Projeto_API_II/Projeto_API_II.csproj",
+        "projectName": "Projeto_API_II",
+        "projectPath": "/home/fillype/Área de Trabalho/Projeto_API_II/Projeto_API_II.csproj",
+        "packagesPath": "/home/fillype/.nuget/packages/",
+        "outputPath": "/home/fillype/Área de Trabalho/Projeto_API_II/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/fillype/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.114/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
